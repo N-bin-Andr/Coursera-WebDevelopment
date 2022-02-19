@@ -12,9 +12,8 @@ h1 {
 .beef,
 .suchi {
 	float: left;
-	margin: 12px;
+	margin: 12px 8px;
 	width: 31vw;
-	align-self: center;
 }
 
 .inner {
@@ -49,10 +48,21 @@ h2 {
 	background: #e2e6d1;
 }
 
+@media (max-width: 767px){
+	.chicken,
+	.beef,
+	.suchi {
+		float: unset;
+		margin: 12px 8px;
+		width: 95vw;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.chicken,
 	.beef {
 		width: 46vw;
+		margin: 8px 11px;
 	}
 	.suchi {
 		width: 95vw;
