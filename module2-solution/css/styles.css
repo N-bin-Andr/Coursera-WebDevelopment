@@ -1,1 +1,47 @@
+body {
+	font-size: 20px;
+}
 
+h1 {
+	text-align: center;
+	margin: 25px auto;
+	font-size: 1.75em;
+}
+
+.chicken,
+.beef,
+.suchi {
+	margin: 15px;
+}
+
+.inner {
+	position: relative;
+	border: 1px solid #000;
+	background-color: #cfdde5;
+	padding: 40px 7px 7px;
+}
+
+.header {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 150px;
+	border: 2px solid #000;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.25em;
+}
+
+.chicken h2 {
+	background: #d1e6db;
+}
+
+.beef h2 {
+	background: #d5d1e6;
+}
+
+.suchi h2 {
+	background: #e2e6d1;
+}
