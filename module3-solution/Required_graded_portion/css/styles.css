@@ -1,0 +1,9 @@
+li,
+article {
+  border: 1px solid #000;
+}
+
+nav,
+article {
+  background-color: lightgray;
+}
